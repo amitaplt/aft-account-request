@@ -12,7 +12,7 @@ variable "account-request-table-hash" {
 
 variable "control_tower_parameters" {
   type = object({
-    AccountEmail              = string
+    AccountEmail              = amitapl@amazon.com
     AccountName               = string
     ManagedOrganizationalUnit = string
     SSOUserEmail              = string
