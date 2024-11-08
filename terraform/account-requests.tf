@@ -5,13 +5,13 @@ module "account_request_01" {
     AccountEmail              = "amitapl+afttest@amazon.com"
     AccountName               = "afttest2"
     ManagedOrganizationalUnit = "Sandbox" 
-    SSOUserEmail              = "amitapl+aft@amazon.com"
+    SSOUserEmail              = "amitapl@amazon.com"
     SSOUserFirstName          = "amita"
     SSOUserLastName           = "pillai"
   }
 
   account_tags = {
-    "ABC:Owner"       = "myname@mycompany.com"
+    "ABC:Owner"       = "amitapl@amazon.com"
     "ABC:Division"    = "ENT"
     "ABC:Environment" = "Dev"
     "ABC:CostCenter"  = "123456"
